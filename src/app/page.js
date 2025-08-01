@@ -73,7 +73,7 @@ export default function Home() {
               <ShoppingCart className="h-8 w-8 text-blue-600" />
               <h1 className="ml-2 text-2xl font-bold text-gray-900">aimeeling</h1>
             </div>
-            <div className="flex gap-3">
+            <div className="hidden md:flex gap-3">
               <button 
                 onClick={handleTransfer}
                 className="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg flex items-center gap-2 transition-colors"
